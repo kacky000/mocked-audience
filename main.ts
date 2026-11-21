@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const JOKE =
-  "My AI coding agent crashed the live demo, then handled it like every failing test: it mocked the audience.";
+  "The live demo crashed in dead silence, and my AI coding agent replied: \"You're absolutely right!\"";
 
 const OUT_DIR = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(OUT_DIR, { recursive: true });
